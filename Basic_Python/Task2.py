@@ -36,3 +36,30 @@ print(t[2])
 # t[2] = "hi"#raises an exception
 # s='000000'
 # s[4]='x'#raise exception
+
+# Dictionaries
+# Dictionaries store key-value pairs
+# every element of a dictionary has two parts, a key and a value
+# if we have key, we can get the value
+# for accessing and assigning values is the same as for lists
+# dictionaries are also known as maps, mappings, or hash tables.
+# it doesn't have a fixed order
+
+d = dict()  # empty dictionary
+d[5] = "five"
+d[2] = "two"
+d['pi'] = 3.14
+
+print(d)
+print(d['pi'])
+
+# Sets
+# they are collections of objects without duplicates
+# use curly bracket to define set
+# not allow duplicate value
+
+s = {1, 2}
+print(type(s))
+s.add(3)
+s.add(2)
+print(s)
