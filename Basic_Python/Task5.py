@@ -17,8 +17,14 @@ for item in mytuple:
 for item in myset:
     print(item)
 
-for item in mydict:
-    print(item)
+for key in mydict:
+    print(key)
+
+for key, value in mydict.items():
+    print(key, value)
+
+for value in mydict.values():
+    print(value)
 
 for character in mystring:
     print(character)
