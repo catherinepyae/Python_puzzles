@@ -6,7 +6,7 @@
 
 # python has list class
 # if i create 'myList' list, then 'myList' is an objectof type class
-myList = []  # empty list
+myList = []
 print(type(myList))
 print(isinstance(myList, list))
 print(isinstance(myList, str))
